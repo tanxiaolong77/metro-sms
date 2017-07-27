@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+    <groupId>com.metro</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+  <artifactId>metro-sms-api</artifactId>
+  <name>metro-sms-api</name>
+  <url>http://maven.apache.org</url>
+ 
+  <distributionManagement>
+		<repository>
+			<id>nexus-releases</id>
+			<url>http://192.168.76.15:8081/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus-snapshots</id>
+			<url>http://192.168.76.15:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+	
+	
+  <dependencies>
+    <dependency>
+      <groupId>com.metro</groupId>
+      <artifactId>metro-util</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+</project>
